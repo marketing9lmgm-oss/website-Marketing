@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Martabak Mini Laris Manis</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#fafafa;
+}
+
+header{
+background:#BE5114;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+nav{
+background:#111;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:yellow;
+padding:15px 20px;
+text-decoration:none;
+}
+
+nav a:hover{
+background:#ff9800;
+}
+
+.hero{
+height:400px;
+background-image: url("Logo.png");
+background-size:contain;
+background-position:center;
+  background-repeat:no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:40px;
+font-weight:bold;
+text-shadow:3px 3px 10px black;
+text-align:center;
+}
+
+.container{
+padding:50px;
+max-width:1200px;
+margin:auto;
+}
+
+h2{
+margin-bottom:20px;
+color:#7a0000;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+.branches{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.branch{
+background:white;
+padding:15px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact{
+background:#7a0000;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.social a{
+display:inline-block;
+margin:10px;
+padding:10px 20px;
+background:white;
+color:#7a0000;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Martabak Mini Laris Manis</h1>
+<p>Pelopor Martabak Mini Lezat & Peluang Usaha Menguntungkan</p>
+</header>
+
+<nav>
+<a href="#profil">Profil</a>
+<a href="#visi">Visi Misi</a>
+<a href="#produk">Produk</a>
+<a href="#galeri">Galeri</a>
+<a href="#cabang">Cabang</a>
+<a href="#karir">Lowongan</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<div class="hero">
+Martabak Mini Laris Manis
+</div>
+
+<div class="container" id="profil">
+
+<h2>Profil Perusahaan</h2>
+
+<p>
+Martabak Mini Laris Manis adalah perusahaan kuliner yang bergerak di bidang
+penjualan martabak mini dengan berbagai varian rasa yang lezat dan terjangkau.
+Kami adalah pelopor penjual Martabak Manis Mini di Indonesia.
+</p>
+
+</div>
+
+<div class="container" id="visi">
+
+<h2>Visi & Misi</h2>
+
+<h3>Visi</h3>
+<p>Menjadi brand martabak mini terbaik dan terbesar di Indonesia.</p>
+
+<br>
+
+<h3>Misi</h3>
+
+<ul>
+<li>Menyediakan produk martabak mini berkualitas</li>
+<li>Menciptakan peluang usaha bagi masyarakat</li>
+<li>Mengutamakan pelayanan terbaik</li>
+<li>Berinovasi dalam varian rasa</li>
+</ul>
+
+</div>
+
+<div class="container" id="produk">
+
+<h2>Produk Martabak Mini</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="MEses.png">
+<h3>Cokelat</h3>
+</div>
+
+<div class="card">
+<img src="Kacang.png">
+<h3>Kacang</h3>
+</div>
+
+<div class="card">
+<img src="Cokelat-kacang.png">
+<h3>Cokelat Kacang</h3>
+</div>
+
+<div class="card">
+<img src="Keju.png">
+<h3>Keju</h3>
+</div>
+
+<div class="card">
+<img src="CoKe.png">
+<h3>Cokelat Keju</h3>
+</div>
+
+<div class="card">
+<img src="SST.png">
+<h3>Strawberry</h3>
+</div>
+
+<div class="card">
+<img src="SBR.png">
+<h3>Blueberry</h3>
+</div>
+
+<div class="card">
+<img src="TRMS.png">
+<h3>Tiramisu</h3>
+</div>
+
+<div class="card">
+<img src="GreenTea.png">
+<h3>Green Tea</h3>
+</div>
+
+<div class="card">
+<img src="Oreo.png">
+<h3>Oreo</h3>
+</div>
+
+<div class="card">
+<img src="BubbleGum.png">
+<h3>Bubble Gum</h3>
+</div>
+
+<div class="card">
+<img src="GTaro.png">
+<h3>Taro</h3>
+</div>
+
+<div class="card">
+<img src="MP.png">
+<h3>Meses Rainbow</h3>
+</div>
+
+</div>
+</div>
+
+<div class="container" id="galeri">
+
+<h2>Galeri Martabak Mini</h2>
+
+<div class="gallery">
+
+<img src="UMR22.jpg">
+
+<img src="UMR.jpg">
+
+<img src="NIA.jpg">
+
+<img src="NI.jpg">
+
+<img src="MM.jpg">
+
+<img src="SKL.jpg">
+
+</div>
+
+</div>
+
+<div class="container" id="cabang">
+
+<h2>Cabang Martabak Mini Laris Manis</h2>
+
+<div class="branches">
+
+<div class="branch">Tanjung Priok</div>
+<div class="branch">Cempaka Putih</div>
+<div class="branch">Jatinegara</div>
+<div class="branch">Keramat Jati</div>
+<div class="branch">Kemayoran</div>
+
+<div class="branch">Koja Selatan</div>
+<div class="branch">Kalibaru</div>
+<div class="branch">Matraman</div>
+<div class="branch">Ciracas</div>
+<div class="branch">Pondok Melati</div>
+
+<div class="branch">Bintara Jaya</div>
+<div class="branch">Palmerah</div>
+<div class="branch">Jakasampurna</div>
+<div class="branch">Slipi</div>
+<div class="branch">Kebayoran</div>
+
+<div class="branch">Cakung</div>
+<div class="branch">Bekasi Timur</div>
+<div class="branch">Bekasi Utara</div>
+<div class="branch">Bekasi Tambun</div>
+<div class="branch">Bekasi Tambun 2</div>
+
+<div class="branch">Ciputat</div>
+<div class="branch">Ciputat 2</div>
+<div class="branch">Pamulang 1</div>
+<div class="branch">Pamulang 2</div>
+<div class="branch">Tanah Kusir</div>
+
+<div class="branch">Pesanggerahan</div>
+<div class="branch">Larangan</div>
+<div class="branch">Cipayung Depok</div>
+<div class="branch">Meruya</div>
+<div class="branch">Ciledug</div>
+
+<div class="branch">Cengkareng</div>
+<div class="branch">Pademangan</div>
+<div class="branch">Gunung Putri</div>
+<div class="branch">Tajur Halang</div>
+<div class="branch"></div>
+
+<div class="branch">Pasar Minggu</div>
+<div class="branch">Cilandak</div>
+<div class="branch">Jagakarsa</div>
+<div class="branch">Cinere</div>
+<div class="branch">Lenteng Agung</div>
+
+<div class="branch">Cibubur</div>
+<div class="branch">Ciracas</div>
+<div class="branch">Kramat Jati</div>
+<div class="branch">Matraman</div>
+<div class="branch">Manggarai</div>
+
+<div class="branch">Senayan</div>
+<div class="branch">Kuningan</div>
+<div class="branch">Setiabudi</div>
+<div class="branch">Tebet</div>
+<div class="branch">Grogol</div>
+
+<div class="branch">Slipi</div>
+<div class="branch">Tomang</div>
+<div class="branch">Kalideres</div>
+<div class="branch">Pluit</div>
+<div class="branch">Pantai Indah Kapuk</div>
+
+<div class="branch">Ancol</div>
+<div class="branch">Koja</div>
+<div class="branch">Cilincing</div>
+<div class="branch">Cakung</div>
+<div class="branch">Pulogadung</div>
+
+<div class="branch">Jatinegara</div>
+<div class="branch">Kebayoran Baru</div>
+<div class="branch">Kebayoran Lama</div>
+<div class="branch">Pesanggrahan</div>
+<div class="branch">Pondok Indah</div>
+
+<div class="branch">Pondok Gede</div>
+<div class="branch">Harapan Indah</div>
+<div class="branch">Tambun Selatan</div>
+<div class="branch">Tambun Utara</div>
+<div class="branch">Cibitung</div>
+
+</div>
+</div>
+
+<div class="container" id="karir">
+
+<h2>Lowongan Pekerjaan</h2>
+
+<ul>
+
+
+<li>Mitra Usaha Martabak Mini</li>
+
+</ul>
+
+</div>
+
+<div class="contact" id="kontak">
+
+<h2>Kontak Kami</h2>
+
+<p>📞 0838 0923 1623</p>
+
+<div class="social">
+
+<a href="https://wa.me/6283809231623">WhatsApp</a>
+
+<a href="https://www.facebook.com/share/1NCov2UzfV/">Facebook</a>
+
+<a href="https://www.instagram.com/larismanisgemilangjaya?igsh=MTNqN3hjbngxeGY2dw==">Instagram</a>
+
+<a href="https://www.tiktok.com/@lmgm.official?_r=1&_t=ZS-9492sBG8vDg">TikTok</a>
+
+</div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/6283809231623">
+Chat WhatsApp
+</a>
+
+<footer>
+
+© 2026 Martabak Mini Laris Manis
+
+</footer>
+
+</body>
+</html>h">Cilincing</div>
+<div class="branch">Cakung</div>
+<div class="branch">Pulogadung</div>
+
+<div class="branch">Jatinegara</div>
+<div class="branch">Kebayoran Baru</div>
+<div class="branch">Kebayoran Lama</div>
+<div class="branch">Pesanggrahan</div>
+<div class="branch">Pondok Indah</div>
+
+<div class="branch">Pondok Gede</div>
+<div class="branch">Harapan Indah</div>
+<div class="branch">Tambun Selatan</div>
+<div class="branch">Tambun Utara</div>
+<div class="branch">Cibitung</div>
+
+</div>
+</div>
+
+<div class="container" id="karir">
+
+<h2>Lowongan Pekerjaan</h2>
+
+<ul>
+
+<li>Staff Produksi Martabak</li>
+
+<li>Admin Media Sosial</li>
+
+<li>Marketing</li>
+
+<li>Mitra Usaha Martabak Mini</li>
+
+</ul>
+
+</div>
+
+<div class="contact" id="kontak">
+
+<h2>Kontak Kami</h2>
+
+<p>📞 0838 0923 1623</p>
+
+<div class="social">
+
+<a href="https://wa.me/6283809231623">WhatsApp</a>
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+</div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/6283809231623">
+Chat WhatsApp
+</a>
+
+<footer>
+
+© 2026 Martabak Mini Laris Manis
+
+</footer>
+
+</body>
+</html>
